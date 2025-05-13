@@ -40,5 +40,4 @@ lensnest/
 MIT License - Free to use and modify
 
 ---
-
 Created as part of the **Code Alpha Internship Program**
