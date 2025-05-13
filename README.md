@@ -2,7 +2,7 @@
 
 A responsive image gallery with fullscreen lightbox and elegant UI, featuring a video background header and newsletter section.
 
-![Gallery Preview](Assets/img-g-2.jpg)
+![Gallery Preview](Assets/img-g-3.jpg)
 
 ## ✨ Features
 - **Interactive Lightbox**: Fullscreen image viewing with navigation
