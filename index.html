@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Gallery</title>
+        <link rel="shortcut icon" href="Assets/icon-img.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"/> 
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    </head>
+<body>
+    <!---Header + Hero section-->
+    <div class="section-header">
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="Assets/video.mp4" type="video/mp4">
+        </video>
+        <div class="nav-bar-wrapper">
+            <div class="nav-bar">
+                <h1>AV</h1>
+                <ul class="nav-list">
+                    <li class="nav-list-li"><a href="">Gallery</a></li>
+                    <li class="nav-list-li"><a href="">About</a></li>
+                    <li class="nav-list-li"><a href="">Blog</a></li>
+                    <li class="nav-list-li"><a href="">Contact</a></li>
+                </ul>
+                <i class="ri-menu-fill mbl-nav-icon" ></i>
+            </div>      
+        </div>
+        <div class="hero-content-wrapper">
+            <div class="hero-content">
+            <p class="hero-content-title">
+                Welcome to
+            </p>
+            <h1 class="hero-content-title-bold">Artview</h1>
+            <p class="hero-content-desc">
+                Curated visuals, every image tells a story.
+            </p>
+            <button class="hero-content-hero-btn">
+                Explore More
+            </button>
+        </div>
+        </div>
+    </div>
+     <section class="image-gallery-wrapper">
+        <div class="img-div">
+            <img src="Assets/img-g-1.jpg" alt="Image 1" loading="lazy" class="img-item">
+            <img src="Assets/img-g-3.jpg" alt="Image 2" loading="lazy" class="img-item">
+            <img src="Assets/img-g-2.jpg" alt="Image 3" loading="lazy" class="img-item">
+            <img src="Assets/img-g-4.jpg" alt="Image 4" loading="lazy" class="img-item">
+            <img src="Assets/img-g-6.jpg" alt="Image 6" loading="lazy" class="img-item">
+            <img src="Assets/img-g-7.jpg" alt="Image 7" loading="lazy" class="img-item">
+            <img src="Assets/img-g-8.jpg" alt="Image 8" loading="lazy" class="img-item">
+            <img src="Assets/img-g-9.jpg" alt="Image 9" loading="lazy" class="img-item">
+            <img src="Assets/img-g-10.jpg" alt="Image 10" loading="lazy" class="img-item">
+            <img src="Assets/img-g-12.jpg" alt="Image 12" loading="lazy" class="img-item">
+            <img src="Assets/img-g-13.jpg" alt="Image 13" loading="lazy" class="img-item">
+            <img src="Assets/img-g-14.jpg" alt="Image 14" loading="lazy" class="img-item">
+            <img src="Assets/img-g-15.jpg" alt="Image 15" loading="lazy" class="img-item">
+            <img src="Assets/img-g-16.jpg" alt="Image 16" loading="lazy" class="img-item">
+            <img src="Assets/img-g-17.jpg" alt="Image 17" loading="lazy" class="img-item">
+            <img src="Assets/img-g-18.jpg" alt="Image 18" loading="lazy" class="img-item">
+            <img src="Assets/img-g-19.jpg" alt="Image 19" loading="lazy" class="img-item">
+            <img src="Assets/img-g-20.jpg" alt="Image 20" loading="lazy" class="img-item">
+            <img src="Assets/img-g-21.jpg" alt="Image 21" loading="lazy" class="img-item">
+            <img src="Assets/img-g-22.jpg" alt="Image 22" loading="lazy" class="img-item">
+            <img src="Assets/img-g-23.jpg" alt="Image 23" loading="lazy" class="img-item">
+            <img src="Assets/img-g-24.jpg" alt="Image 24" loading="lazy" class="img-item">
+            <img src="Assets/img-g-25.jpg" alt="Image 25" loading="lazy" class="img-item">
+            <img src="Assets/img-g-26.jpg" alt="Image 26" loading="lazy" class="img-item">
+          </div>       
+     </section>
+
+     <!---CTA Section-->
+  <section class="cta-wrapper">
+  <section class="cta-section">
+   
+    <!---CTA About Section-->
+    <div class="cta-container">
+      <h1 class="cta-title">About</h1>
+      <p class="cta-about-p" id="about-p">Step into a world where imagination meets reality. We began our creative journey in 1998, transforming from a small artistic space to a wide-reaching collective that inspires across the country with surreal visuals and visionary experiences.</p>
+    </div>
+    
+    <!---CTA Information Section-->
+    <div class="cta-container">
+      <h1 class="cta-title">Information</h1>
+      <ul class="cta-container-info">
+        <li><a href="#">Our Vision</a></li>
+        <li><a href="#">Creative Process</a></li>
+        <li><a href="#">Privacy & Trust</a></li>
+        <li><a href="#">User Terms</a></li>
+        <li><a href="#">Get in Touch</a></li>
+        <li><a href="#">Returns & Questions</a></li>
+        <li><a href="#">Behind the Scenes</a></li>
+      </ul>
+    </div>
+
+
+    <!---CTA Newsletter Section-->
+    <div class="cta-container">
+      <h1 class="cta-title">Sign Up for Our Newsletter:</h1>
+      <p class="cta-about-p">Stay connected to a world of visual magic, creative events, and ethereal offerings. Enter your email and let the inspiration flow to your inbox.</p>
+      <div class="cta-input-container">
+        <div class="cta-input-wrapper">
+          <i class="ri-mail-line cta-icon"></i>
+          <input type="text" name="" id="" placeholder="Enter your e-mail address">
+        </div>
+        <button class="cta-btn">Get</button>
+      </div>
+    </div>
+
+  </section>
+</section>
+
+     <!-- Lightbox Modal -->
+<div id="lightbox-modal" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <a class="prev">&#10094;</a>
+  <a class="next">&#10095;</a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
